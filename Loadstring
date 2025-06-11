@@ -1,0 +1,25 @@
+-- [ M-UI ]
+spawn(function()
+    loadstring(game:HttpGet("",true))()
+end)
+
+wait(10)
+
+-- [ SA Overhaul ]
+spawn(function()
+    loadstring(game:HttpGet("",true))()
+end)
+
+-- [cCamlock ]
+wait(2)
+
+spawn(function()
+    loadstring(game:HttpGet("",true))()
+end)
+
+-- [ Phantasm ]
+wait(2)
+
+spawn(function()
+    loadstring(game:HttpGet("",true))()
+end)
