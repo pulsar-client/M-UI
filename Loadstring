@@ -1,25 +1,22 @@
+-- [ Camlock ]
+spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/CAMLOCK",true))()
+end)
+
+-- [ Phantasm ]
+spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/PHANTASM",true))()
+end)
+
 -- [ M-UI ]
 spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/M-UI",true))()
 end)
 
-wait(10)
+wait(10) -- This makes the next loadstring load after 10 secends.
 
 -- [ SA Overhaul ]
 spawn(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/SA-OVERHAUL",true))()
 end)
 
--- [Camlock ]
-wait(2)
-
-spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/CAMLOCK",true))()
-end)
-
--- [ Phantasm ]
-wait(2)
-
-spawn(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/pulsar-client/M-UI/refs/heads/main/Assets/PHANTASM",true))()
-end)
